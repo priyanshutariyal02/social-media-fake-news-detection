@@ -3,7 +3,6 @@ import {
   IconArrowLeft,
   IconHome,
   IconMessages,
-  IconNotification,
   IconBell,
 } from "@tabler/icons-react";
 
