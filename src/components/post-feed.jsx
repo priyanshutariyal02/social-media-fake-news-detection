@@ -209,11 +209,11 @@ const PostFeed = () => {
 
           {/* Post Content */}
           <p className="text-gray-200 mb-3">{post.content}</p>
-          {postText[post.id] && (
+          {/* {postText[post.id] && (
             <p className="text-gray-400 text-sm italic mb-3">
               {postText[post.id]}
             </p>
-          )}
+          )} */}
 
           {/* Post Image if available */}
           {post.image && (
