@@ -28,5 +28,6 @@ export function middleware(request) {
 }
 
 export const config = {
-  matcher: [...publicRoutes, "/protectedRoutes/:path*"],
+  matcher: ["/", "/login", "/((?!api|_next/static|_next/image|favicon.ico).*)"],
 };
+
