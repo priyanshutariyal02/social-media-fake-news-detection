@@ -28,5 +28,5 @@ export function middleware(request) {
 }
 
 export const config = {
-  matcher: [...publicRoutes, ...protectedRoutes],
+  matcher: [...publicRoutes, "/protectedRoutes/:path*"],
 };
