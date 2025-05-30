@@ -23,7 +23,10 @@ const Login = () => {
           Sign in to access your account
         </p>
         <button
-          onClick={() => signIn("google", { callbackUrl: "/" })}
+          onClick={(e) => {
+            e.preventDefault();
+            signIn("google", { callbackUrl: "/" });
+          }}
           className="w-full flex items-center justify-center gap-2 bg-white border border-gray-300 rounded-md px-4 py-2 text-gray-700 hover:bg-gray-50 transition-colors"
         >
           <svg
